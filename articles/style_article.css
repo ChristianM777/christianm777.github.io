@@ -1,0 +1,46 @@
+
+header {
+    top: 0;
+}
+.main {
+    width: 80%;
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main h4 {
+    text-align: start;
+    font-size: 30px;
+    font-family: "Minecraft Regular";
+    font-weight: 800;
+    color: #000;
+    letter-spacing: 4px;
+}
+.main .content {
+    width: 100%;
+    margin: 20px;
+}
+.main .content p {
+    margin: 30px 10px;
+    font-size: 18px;
+    font-family: "Minecraft Regular";
+    color: #8f8f8f;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.main .content span {
+    margin: 30px 10px;
+    font-size: 25px;
+    font-family: "Minecraft Regular";
+    color: #287e94;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+@media screen and (max-width: 600px) {
+    .main h4 {
+        font-size: 25px;
+    }
+}

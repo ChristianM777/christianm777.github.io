@@ -1,0 +1,397 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    transition: 0.5s;
+    background: #d4ebf7;
+}
+
+.frase {
+    width: 100%;
+    height: 40px;
+    background: #f1f5f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frase h2 {
+    font-size: 25px;
+    font-family: "Minecraft Regular";
+    font-weight: 800;
+    color: #8f8f8f;
+    letter-spacing: 5px;
+}
+
+header {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 80px;
+}
+header .content_header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .content_header .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+header .content_header .name h3{
+    font-size: 30px;
+    font-family: "Minecraft Regular";
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 4px;
+}
+header .content_header .name p:nth-child(2){
+    font-size: 30px;
+    font-family: "Minecraft Regular";
+    font-weight: 800;
+    color: #287e94;
+    letter-spacing: 4px;
+    margin: 0px 10px 0px 20px;
+}
+header .content_header .name p:nth-child(3){
+    font-size: 40px;
+    font-family: "Minecraft Regular";
+    font-weight: 800;
+    color: #ff0;
+    letter-spacing: 4px;
+    margin: 0px 10px 0px 20px;
+}
+header .content_header .dark_light {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+header .content_header .dark_light a {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+header .content_header .dark_light a:hover {
+    border: 1px solid #023ff2;
+}
+.fa-sun {
+    color: #FFDC80;
+}
+.fa-moon {
+    color: #e3e3d0;
+}
+.btn_sun {
+    display: block;
+}
+.btn_moon {
+    display: none;
+}
+.btn_sun_active {
+    display: none;
+}
+.btn_moon_active {
+    display: block;
+}
+
+header .content_header .nav {
+    height: 80px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+header .content_header .nav a {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+header .content_header .nav a:hover {
+    border: 1px solid #023ff2;
+}
+
+.fa-youtube {
+    color: #f00;
+}
+.fa-instagram {
+    color: #fff;
+    border-radius: 5px;
+    background: linear-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C,
+                                #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+}
+.fa-github {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+.history{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+}
+.history h3 {
+    margin: 30px auto;
+    font-size: 30px;
+    font-family: "Minecraft Regular";
+    letter-spacing: 3px;
+}
+.history p {
+    font-size: 18px;
+    font-family: "Minecraft Regular";
+    padding: 40px;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles {
+    width: 70%;
+    padding: 30px;
+    margin: 40px 0px;
+}
+.articles h4 {
+    margin: 30px auto;
+    font-size: 25px;
+    font-family: "Minecraft Regular";
+    letter-spacing: 3px;
+}
+.articles .article {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.articles .article a {
+    margin: 20px auto;
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.articles .article a div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.articles .article a div h5 {
+    font-size: 18px;
+    font-family: "Minecraft Regular";
+    color: #000;
+}
+.articles .article a div p {
+    font-size: 14px;
+    font-family: "Minecraft Regular";
+    color: #000;
+}
+.articles .article a:hover {
+    background: #f1f5f9;
+}
+
+
+
+
+.other_article {
+    width: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.other_article .records {
+    width: 100%;
+    padding: 10px;
+}
+.other_article .records h5 {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Minecraft Regular";
+    color: #000;
+    margin: 30px auto;
+}
+.other_article .records a {
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.other_article .records a p {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Minecraft Regular";
+    color: #000;
+}
+.other_article .records a:hover {
+    background: #e3e3d0;
+}
+
+footer {
+    width: 100%;
+    background: #f1f5f9;
+    padding: 20px;
+}
+.content_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content_footer .redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_footer .redes a {
+    margin: 0px 20px;
+    font-size: 16px;
+    font-family: "Minecraft Regular";
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.content_footer .redes a:hover {
+    color: #000;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    .frase h2 {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+    .history {
+        padding: 10px;
+    }
+    .history h3 {
+        font-size: 25px;
+    }
+    .history p {
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 600px){
+    .frase h2 {
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    .history {
+        padding: 10px;
+    }
+    .history h3 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    
+    header .content_header .name {
+        padding: 0px 5px;
+    }
+    header .content_header .name h3{
+        font-size: 25px;
+        letter-spacing: 3px;
+        margin: 0px 5px 0px 10px;
+    }
+    header .content_header .name p:nth-child(2){
+        font-size: 25px;
+        letter-spacing: 3px;
+        margin: 0px 5px 0px 10px;
+    }
+    header .content_header .name p:nth-child(3){
+        font-size: 25px;
+        letter-spacing: 3px;
+        margin: 0px 5px 0px 10px;
+    }
+    header .content_header .dark_light a {
+        padding: 5px 7px;
+        font-size: 20px;
+    }
+    header .content_header .nav {
+        padding: 0px 5px;
+    }
+    header .content_header .nav a {
+        padding: 5px 7px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    
+    .main {
+        flex-direction: column;
+    }
+    .articles {
+        width: 100%;
+        padding: 10px;
+        margin: 40px 0px;
+    }
+    .articles h4 {
+        font-size: 20px;
+    }
+    .articles .article a {
+        margin: 20px auto;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .other_article {
+        width: 100%;
+        margin: 40px auto;
+    }
+    .other_article .records h5 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    .frase h2 {
+        padding: 0px 5px;
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-weight: 400;
+    }
+}
+
+
+
+.history_active h3{
+    color: #fff;
+}
+.history_active p {
+    color: #fff;
+}
+.main_active {
+    color: #fff;
+}
+.main_active .other_article .records h5 {
+    color: #fff;
+}
