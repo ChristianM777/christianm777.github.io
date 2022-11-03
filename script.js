@@ -22,3 +22,14 @@ fa_moon.addEventListener('click', ()=> {
     history.classList.toggle('history_active');
     main.classList.toggle('main_active');
 })
+
+
+
+
+
+const home = document.querySelector('.home');
+
+
+home.addEventListener("click", ()=> {
+   window.location.href ="https://christianm777.github.io/";
+})

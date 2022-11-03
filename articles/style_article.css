@@ -31,6 +31,12 @@ header {
     font-weight: 400;
     letter-spacing: 2px;
 }
+.main .content img {
+    width: 100%;
+    padding: 30px;
+    margin: 20px auto;
+    background: #d4ebf7;
+}
 .main .content span {
     margin: 30px 10px;
     font-size: 25px;

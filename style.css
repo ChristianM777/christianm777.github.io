@@ -40,6 +40,9 @@ header .content_header {
     justify-content: space-between;
     align-items: center;
 }
+.home {
+    cursor: pointer;
+}
 header .content_header .name {
     display: flex;
     justify-content: center;
